@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+p[data-anime-sine] {
+	transition: transform .5s ease-out;
+}
+.anime_start {
+    transform: translate(50%, 0px);
+}
