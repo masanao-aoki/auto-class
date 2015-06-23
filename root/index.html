@@ -15,7 +15,6 @@
 <main role="main">
 <p data-anime-sine="1">1</p>
 <p data-anime-sine="2">2</p>
-<p data-anime-sine="2">■</p>
 <p data-anime-sine="7">7</p>
 <p data-anime-sine="8">8</p>
 <p data-anime-sine="9">9</p>
@@ -30,7 +29,7 @@
 <script src="js/common.js"></script>
 <script>
 	$(document).ready(function() {
-		$('[data-anime-sine]').autoClass();
+		$('[data-anime-sine]').autoClass({type:'loop'});
 	});
 </script>
 </body>

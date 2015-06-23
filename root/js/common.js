@@ -23,16 +23,19 @@
 		autoClass = {
 			normal : function() {
 				startAnime(0);
+			},
+			loop : function() {
+				startAnime(0);
 			}
 		};
 
-
-
+		//完了処理
 		function complateAnime (Num,target) {
 			target.addClass('anime_end');
 			startAnime(animeArray[Num].animeSine);
 		}
 
+		//開始処理
 		function startAnime (Num) {
 			if( animeCount > Num ) {
 				$('[data-anime-sine='+animeArray[Num].animeSine+']').addClass('anime_start').on('transitionend', function() {
