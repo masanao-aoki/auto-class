@@ -2,6 +2,8 @@
 
 data-anime-sineの数字順にクラスを実装
 
+http://masanao-aoki.github.io/auto-class/root/
+
 ## 前提条件としてインストールされているもの
 
 * npm
